@@ -1,0 +1,23 @@
+header {
+  color: red;
+
+  @include medium {
+    color: green;
+  }
+
+  @include large {
+    background-color: gold;
+  }
+
+  .nav {
+    color: blue;
+
+    li {
+      text-decoration: underline;
+
+      @include medium {
+        border: 1px solid red;
+      }
+    }
+  }
+}

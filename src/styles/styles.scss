@@ -1,0 +1,14 @@
+@mixin medium {
+  @media (min-width: 700px) {
+    @content;
+  }
+}
+
+@mixin large {
+  @media (min-width: 1000px) {
+    @content;
+  }
+}
+
+@import './header.scss';
+@import './footer.scss';
